@@ -84,9 +84,8 @@ header a:hover{
 }
 
 .welcome-text {
-    width: 550px;
     text-align: center;
-    margin: 10px auto;
+
     color: var(--dark-blue);
     text-decoration: none;
     font-size: 21px;
@@ -209,12 +208,11 @@ footer {
         margin: 0;
     }
     .top-section {
-        background-image: url(../images/index-header-bg.png);
         font-weight: 600;
         margin-top: 250px;  
     }
     .welcome {
-        font-size: 16px;
+        font-size: 15px;
         padding-top: 30%;
     }
 
