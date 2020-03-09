@@ -15,7 +15,7 @@ html, body {
     font-family: 'Titillium Web', sans-serif !important;
 }
 
-
+/* menu y cabezote*/
 nav.menu {
     background-color: var(--dark-blue) !important;
     display: flex;
@@ -58,18 +58,24 @@ header a:hover{
 }
 
 
+/* top image and texts*/
 
 .top-section {
-    background-image: url(../images/index-header-bg.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+
     margin-right: 0;
     margin-left: 0;    
     text-align: center;
     color: white;
     font-size: 18px;
     font-weight: 600;  
-    height: 400px;
+    position: relative;
+}
+
+.desc-top-section {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translateX(-50%) translateY(-50%);
 }
 
 .welcome {
@@ -84,13 +90,17 @@ header a:hover{
     color: var(--dark-blue);
     text-decoration: none;
     font-size: 21px;
+    background-color: white;
 }
 
+  
 .welcome-description {
     color: var(--dark-blue);
     font-size: 20px;
 }
 
+
+/* about me info*/
 .about-me {
     margin-top: 0;
     background-color: lightgrey;
@@ -103,8 +113,8 @@ header a:hover{
 }
 
 .profile-pic {
-    width: 200px;
-    height: 200px;
+    width: 210px;
+    height: 210px;
 }
 
 h2 {
@@ -117,6 +127,8 @@ p {
     color: var(--grey);
     font-size: 16px;
 }
+
+/* specific work*/
 
 .selection-work {
     margin-top: 40px;
@@ -133,6 +145,8 @@ h3 {
     font-size: 16px;
 }
 
+
+/* contact info*/
 .contact-me {
     margin: 25px 0;
     background-color: var(--dark-blue);
@@ -162,6 +176,8 @@ i.fa-github, .fa-linkedin, .fa-facebook-square {
     font-size: 40px;
 }
 
+
+/* footer*/
 footer {
     background-color: lightgrey;
     margin-top: 0;
@@ -171,10 +187,22 @@ footer {
 }
 
 
+/*para pantalla de celulares*/
  @media (max-width: 576px) {
-    .welcome{
+
+
+    .profession{
         font-size: 32px;
+        margin-bottom: 150px;
+        
     }
+    .container-profession {
+        width: auto;
+        height: auto;
+        margin-top: 210px;
+    }
+
+
     .header ul {
         list-style: none;
         display: inline-block;
@@ -182,41 +210,39 @@ footer {
     }
     .top-section {
         background-image: url(../images/index-header-bg.png);
-        font-size: 18px;
-        font-weight: 600;  
-        height: 400px;
+        font-weight: 600;
+        margin-top: 250px;  
     }
-    .welcome-text {
-        display:none;
+    .welcome {
+        font-size: 16px;
+        padding-top: 30%;
     }
+
+    .welcome-text  {
+        display: none;
+    }
+
     
-    .welcome-description {
-        display:none;
-    }
-    .icon-job {
-        text-align: center;
-        padding-top: 35px;
-    }
-    .icono {
-        padding: 0;
-        text-align: center;
-    }
     
  }
 
- /* No tengo idea si lo que sigue funciona*/
- @media (max-width: 576px) {
-    .profile-pic {
-        justify-content: center;
-    }
-}
+ /*para pantalla de ipad*/
+ @media (max-width: 768px) {
 
-@media (max-width: 575.98px) {
-    .about-me-pic {
-        text-align: center;
+
+    .top-section {
+        margin-top: 190px; 
     }
- 
-}
+
+    .welcome {
+        font-size: 28px;
+    }
+
+    .welcome-description {
+        font-size: 12px;
+    }
+    
+
 
 
 
