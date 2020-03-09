@@ -13,6 +13,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Titillium Web', sans-serif !important;
+    height: 100%;
 }
 
 /* menu y cabezote*/
@@ -78,6 +79,11 @@ header a:hover{
     transform: translateX(-50%) translateY(-50%);
 }
 
+.img-full {
+    max-width: 100%;
+    height: 100%;
+}
+
 .welcome {
     padding-top: 170px;
     text-shadow: 1px 1px 2px var(--grey);
@@ -107,8 +113,17 @@ header a:hover{
     padding-bottom: 60px;
 }
 
+.about-me-info {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
 .about-me-text {
     padding-right: 80px;
+}
+
+.about-me-pic {
+    text-align: right;
 }
 
 .profile-pic {
@@ -154,6 +169,7 @@ h3 {
     color: white;
     margin-bottom: 0;
     margin-right: 0 !important;
+    height: 100%;
    
 }
 
@@ -208,8 +224,8 @@ footer {
         margin: 0;
     }
     .top-section {
-        font-weight: 600;
-        margin-top: 250px;  
+        font-weight: 400;
+        margin-top: 220px;  
     }
     .welcome {
         font-size: 15px;
@@ -220,8 +236,34 @@ footer {
         display: none;
     }
 
-    
-    
+    .about-me {
+        padding-top: 50px;
+    }
+
+    .about-me-pic {
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 25px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .about-me-text {
+        padding-right: 0px;
+    }
+
+    .selection-work {
+        margin-top: 20px;
+        font-size: 10px;
+    }
+
+    .selection-work-text {
+        font-size: 17px;
+    }
+
+
  }
 
  /*para pantalla de ipad*/
@@ -239,7 +281,10 @@ footer {
     .welcome-description {
         font-size: 12px;
     }
-    
+
+    .about-me-text {
+        padding-right: 0px;
+    }
 
 
 
