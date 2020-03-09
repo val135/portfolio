@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,600,700&display=swap');
+
+/* variables */
+:root {
+    /* -- colors -- */
+    --dark-blue: #1665a4;
+    --light-blue: #2299d6;
+    --grey:#6a6a6e;
+}
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif !important;
+}
+
+
+nav.menu {
+    background-color: var(--dark-blue) !important;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    color: white !important;
+    font-size: 18px;
+    font-weight: 600;
+    z-index: 4;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+}
+
+header ul li {   
+    list-style: none;
+    padding: 15px 15px;
+  
+}
+
+header li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 10px;
+    text-shadow: 1px 1px 2px var(--grey);
+}
+
+header a:hover{
+    background-color: var(--light-blue);
+    color: white;
+    text-decoration: none;
+}
+
+.nav-link {
+    padding: 18px !important;
+    margin-top: 0;
+}
+
+
+
+.top-section {
+    background-image: url(../images/index-header-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 0;
+    margin-left: 0;    
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;  
+    height: 400px;
+}
+
+.welcome {
+    padding-top: 170px;
+    text-shadow: 1px 1px 2px var(--grey);
+}
+
+.welcome-text {
+    width: 550px;
+    text-align: center;
+    margin: 10px auto;
+    color: var(--dark-blue);
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.welcome-description {
+    color: var(--dark-blue);
+    font-size: 20px;
+}
+
+.about-me {
+    margin-top: 0;
+    background-color: lightgrey;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.about-me-text {
+    padding-right: 80px;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+}
+
+h2 {
+    padding-top: 10px;
+    color: var(--grey);
+    font-size: 20px;
+}
+
+p {
+    color: var(--grey);
+    font-size: 16px;
+}
+
+.selection-work {
+    margin-top: 40px;
+}
+
+.btn-primary {
+    border-radius: 5px;
+    background-color: var(--light-blue) !important;
+}
+
+h3 {
+    padding-top: 10px;
+    color: var(--grey);
+    font-size: 16px;
+}
+
+.contact-me {
+    margin: 25px 0;
+    background-color: var(--dark-blue);
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+    margin-bottom: 0;
+    margin-right: 0 !important;
+   
+}
+
+.contact-me-text {
+    color: white;
+
+}
+
+button.btn-primary {
+    background-color: var(--light-blue)!important;
+}
+
+button.btn-primary:hover {
+    background-color: var(--dark-blue)!important;
+}
+
+i.fa-github, .fa-linkedin, .fa-facebook-square {
+    color: white;
+    font-size: 40px;
+}
+
+footer {
+    background-color: lightgrey;
+    margin-top: 0;
+    color: var(--grey);
+    height: 60px;
+    margin-bottom: 0;
+}
+
+
+ @media (max-width: 576px) {
+    .welcome{
+        font-size: 32px;
+    }
+    .header ul {
+        list-style: none;
+        display: inline-block;
+        margin: 0;
+    }
+    .top-section {
+        background-image: url(../images/index-header-bg-sm.png);
+        font-size: 18px;
+        font-weight: 600;  
+        height: 400px;
+    }
+    
+ }
+
+ /* No tengo idea si lo que sigue funciona*/
+ @media (max-width: 576px) {
+    .profile-pic {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .about-me-pic {
+        text-align: center;
+    }
+ 
+}
+
+
+
+/* lo que sigue es una copia de las clases de la pag de web dev projects (el css real se llama pages, no sé si moverlo) */
+
+.web-projects {
+    margin-top: 100px;
+    padding-top: 30px;
+    display: inline-flex;
+    padding-right: 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.project-pic {
+    width: 280px;
+    height: 150px;
+}
+
+.project-container {
+    width: 300px;
+    padding: 20px;
+}
+
+.card {
+    width: 300px;
+    padding: 20px;
+}
+
+.card-title {
+    color: var(--grey);
+    font-size: 18px;
+}
+
+.card-text {
+    color: var(--grey);
+    font-size: 14px;
+}
+ 
