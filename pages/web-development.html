@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="../css/pages.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -17,14 +16,20 @@
 
     <!--menu-->
     <header>
-        <nav class="menu navbar navbar-expand-lg navbar-toggler justify-content-center fixed-top">       
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="../index.html">HOME</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html">ABOUT ME</a></li>
-                    <li class="nav-item"><a class="nav-link" href="">PROJECTS</a></li>
-                    <li class="nav-item"><a class="nav-link" href="">CONTACT</a></li>
-                </ul>    
-        </nav>
+        <nav class="menu navbar navbar-expand-lg navbar-toggler justify-content-center text-center fixed-top">       
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="../index.html">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#targetabout">ABOUT ME</a></li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">PROJECTS</a>
+                        <div class="dropdown-menu">
+                        <a class="dropdown-item" href="web-development.html">WEB DEVELOPMENT</a>
+                        <a class="dropdown-item" href="#">DIGITAL MARKETING</a>
+                        <a class="dropdown-item" href="#">CONTENT WRITING</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#targetcontact">CONTACT</a></li>
+                </ul>
+            </nav>
     </header>
 
 
@@ -33,7 +38,7 @@
         <div class="row top-section-web">
             <img src="../images/web-dev-bg.png" alt="" class="img-full w-100 h-100">
             <div class="desc-top-section-web">
-                <h1 class="welcome"><b>Web Development Projects</b></h1> 
+                <h1 class="welcome-web"><b>Web Development Projects</b></h1> 
             </div>
         </div>
     </div>
