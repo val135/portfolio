@@ -293,9 +293,6 @@ footer {
         font-size: 20px;
     }
 
-    .contact-text {
-        font-size: 18px;
-    }
 
 
  }
@@ -333,11 +330,15 @@ footer {
         font-size: 25px;
     }
 
+    .contact-text {
+        font-size: 21px;
+    }
 
 
 
 
-/* lo que sigue es una copia de las clases de la pag de web dev projects (el css real se llama pages, no sé si moverlo) */
+
+/* clases de la pag de web dev projects (el css real se llama pages, no sé si moverlo) */
 
 .web-projects {
     margin-top: 100px;
@@ -372,4 +373,4 @@ footer {
     color: var(--grey);
     font-size: 14px;
 }
- 
+}
