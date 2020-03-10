@@ -16,6 +16,10 @@ html, body {
     height: 100%;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 /* menu y cabezote*/
 nav.menu {
     background-color: var(--dark-blue) !important;
@@ -56,6 +60,24 @@ header a:hover{
 .nav-link {
     padding: 18px !important;
     margin-top: 0;
+}
+
+.dropdown-menu {
+    background-color: var(--dark-blue) !important;
+
+}
+
+.dropdown-item {
+    color: white !important;
+}
+
+.dropdown-item a:hover {
+    color: var(--light-blue) !important;
+
+}
+
+.dropdown-item:hover {
+    background-color: var(--light-blue) !important;
 }
 
 
