@@ -86,3 +86,12 @@
     }
       
 }
+
+/* Rango de resolución 768px a 992px */
+@media (min-width: 769px) and (max-width: 992px)
+{
+    .top-home{
+        margin-top: 215px;
+    }
+}
+
