@@ -16,8 +16,13 @@ html, body {
     height: 100%;
 }
 
+
 body {
     overflow-x: hidden;
+}
+
+.no-padding {
+    padding: 0 !important;
 }
 
 /* menu y cabezote*/
@@ -81,8 +86,7 @@ header a:hover{
 }
 
 /* top image and texts*/
-.top-section {
-
+.top-home {
     margin-right: 0;
     margin-left: 0;    
     text-align: center;
@@ -92,7 +96,7 @@ header a:hover{
     position: relative;
 }
 
-.desc-top-section {
+.desc-top-home {
     position: absolute;
     left: 50%;
     top: 40%;
@@ -111,7 +115,6 @@ header a:hover{
 
 .welcome-text {
     text-align: center;
-
     color: var(--dark-blue);
     text-decoration: none;
     font-size: 21px;
@@ -236,7 +239,7 @@ footer {
     transform: translateX(-50%) translateY(-50%);
 }
 
-.welcome-web {
+.welcome-web-dev {
     padding-top: 150px;
     text-shadow: 1px 1px 2px var(--grey);
 }
@@ -367,7 +370,7 @@ footer {
 }
 
 /* aquí empiezan las clases de la pag de content writing */
-.top-section-writing {
+.top-sec-writing {
     margin-right: 0;
     margin-left: 0;    
     text-align: center;
@@ -389,186 +392,19 @@ footer {
     text-shadow: 1px 1px 2px var(--grey);
 }
 
+/*aquí empiezanEstilos de marketing*/
+.top-section-mkt {
+    margin-right: 0;
+    margin-left: 0;    
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    position: relative; 
+}
 
+.welcome-mkt {
+    padding-top: 150px;
+    text-shadow: 1px 1px 2px var(--grey);
+}
 
-
-
-
-
-
-/*AQUI EMPIEZAN LOS ESTILOS DE MEDIA QUERY*/
-
-/*para pantalla de celulares*/
-@media (max-width: 576px) {
-
-    /*home top*/
-        .profession{
-            font-size: 32px;
-            margin-bottom: 150px;
-            
-        }
-        .container-profession {
-            width: auto;
-            height: auto;
-            margin-top: 210px;
-        }
-    
-    
-        .header ul {
-            list-style: none;
-            display: inline-block;
-            margin: 0;
-        }
-        .top-section {
-            font-weight: 400;
-            margin-top: 220px;  
-        }
-        .welcome {
-            font-size: 14px;
-            padding-top: 30%;
-        }
-    
-        .welcome-text  {
-            display: none;
-        }
-    
-        /*about me resume*/
-        .about-me {
-            padding-top: 50px;
-        }
-    
-        .about-me-pic {
-            text-align: center;
-            margin-right: auto;
-            margin-left: auto;
-            margin-bottom: 25px;
-            display: block;
-            align-items: center;
-            justify-content: center;
-        }
-    
-        .about-me-text {
-            padding-right: 0px;
-        }
-    
-        /*resumen what I do with 3 icons*/
-        .selection-work {
-            margin-top: 20px;
-            font-size: 10px;
-        }
-    
-        .selection-work-text {
-            font-size: 17px;
-        }
-    
-        .work-icons {
-            margin-bottom: 0;
-        }
-    
-        .contact-group {
-            margin-top: 5px;
-            padding-bottom: 35px;
-        }
-    
-        .icons-group {
-            margin-bottom: 30px;
-        }
-    
-        .work-cont {
-            width: 60%;
-        }
-    
-        /*contact info home*/
-        .contact-me {
-            margin-top: 0;
-        }
-        .my-job {
-            font-size:21px;
-        }
-        .my-job-cont {
-            margin-top: 0;
-        }
-    
-        i.fa-github, .fa-linkedin, .fa-facebook-square {
-            font-size: 20px;
-        }
-    
-        /*estilos de la pagina web development*/
-        .top-section-web {
-            font-weight: 400;
-            margin-top: 210px;
-        }
-
-        .blockquote-bg {
-            display: none;
-        }
-
-        .welcome-web {
-            padding-top: 40px;
-            font-size: 21px;
-        }
-        .web-projects {
-            margin-top: 10px;
-            margin-bottom: 25px;
-        }
-        
-        /*media para el footer*/
-        .footer-text {
-            font-size: 12px;
-        }
-    
-    
-    
-     }
-    
-     /*para pantalla de ipad*/
-     @media (max-width: 768px) {
-    
-        /*home top*/
-        .top-section {
-            margin-top: 190px; 
-        }
-    
-        .welcome {
-            font-size: 36px;
-            padding-top: 70px;
-        }
-    
-        .welcome-description {
-            font-size: 13px;
-        }
-    
-        /*about me resume*/
-        .about-me-text {
-            padding-right: 0px;
-        }
-    
-        /*resume work with 3 icons*/
-        .work-cont {
-            width: 75%;
-        }
-    
-        .icono {
-            width: 80px;
-        }
-    
-        /*resume contact*/
-        i.fa-github, .fa-linkedin, .fa-facebook-square {
-            font-size: 25px;
-        }
-    
-        .contact-text {
-            font-size: 21px;
-        }
-
-        /*estilos de la pagina web development*/
-        .top-section-web {
-            font-weight: 400;
-            margin-top: 210px;
-        }
-
-        .welcome-web {
-            padding-top: 45px;
-            font-size: 36px;
-        }
-    }

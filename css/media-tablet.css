@@ -1,0 +1,88 @@
+/*para pantalla de ipad*/
+@media (max-width: 768px) {
+    
+    /*home top*/
+    .top-home {
+        margin-top: 190px; 
+    }
+
+    .welcome {
+        font-size: 36px;
+        padding-top: 70px;
+    }
+
+    .welcome-description {
+        font-size: 13px;
+    }
+
+    /*about me resume*/
+    .about-me-text {
+        padding-right: 0px;
+    }
+
+    /*resume work with 3 icons*/
+    .work-cont {
+        width: 75%;
+    }
+
+    .icono {
+        width: 80px;
+    }
+
+    /*resume contact*/
+    i.fa-github, .fa-linkedin, .fa-facebook-square {
+        font-size: 25px;
+    }
+
+    .contact-text {
+        font-size: 21px;
+    }
+
+    /*estilos de la pagina web development*/
+    .top-section-web {
+        font-weight: 400;
+        margin-top: 210px;
+    }
+
+    .welcome-web-dev {
+        padding-top: 45px;
+        font-size: 36px;
+    }
+
+    /*media queries de la pagina de profile*/
+    .top-section-profile {
+        margin-top: 210px;
+    }
+    .blockquote {
+        display: none;
+    }
+
+    .profile2 {
+        margin-top:40px;
+        margin-bottom: 10px;
+    }
+
+    .text-before-work {
+        font-size: 23px;
+    }
+
+    .top-sec-writing {
+        margin-top: 210px;
+    }
+
+    .welcome-writing {
+        padding-top: 45px;
+        font-size: 34px;
+    }
+
+    .welcome-mkt {
+        padding-top: 45px;
+        font-size: 36px;
+    }
+
+    .top-section-mkt {
+        font-weight: 400;
+        margin-top: 210px;
+    }
+      
+}
